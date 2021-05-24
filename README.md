@@ -1,2 +1,2 @@
 # AlgorithmFinalProject
-Two basic algorithms implementation in JS
+Basic algorithm implementation in JS
