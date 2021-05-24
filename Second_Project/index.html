@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>9708253</title>
+</head>
+<body class="grid font-main bg-gray-100 h-full transition-all">
+    <div class="top">
+        <div class="alert flex flex-row items-center bg-gray-200 p-5 border-b-4 border-gray-300">
+            <div class="alert-content ml-4">
+                <div class="alert-title font-semibold text-3xl text-gray-800">
+                    Algorithms Design Course, Second Project DEMO
+                </div>
+                <div class="alert-description text-2xl text-gray-600">
+                    <h1 class="font-bold tracking-tighter">
+                        Farhad Uneci 9708253
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="relative py-4">
+        <div class="mx-auto md:mx-0 px-4 sm:px-6 flex flex-col md:flex-row">
+            <div class="flex flex-col space-y-4 max-w-lg">
+                <div class="p-6 bg-gray-200 rounded-lg">
+                    <h3 class="text-4xl sm:text-5xl text-gray-900 font-black tracking-tight">
+                        Project Description
+                    </h3>
+                    <p class="text-normal text-justify text-lg font-medium text-gray-600 mt-2">
+                        Given the fixed array of numbers, representing some cards,
+                        Find the best answer in which if we want to equally speared
+                        cards between two person the diff between them
+                        <mark class="uppercase">
+                            <strong>
+                                Be the minimum
+                            </strong>
+                        </mark>
+                        .
+                    </p>
+                </div>
+
+                <div class="p-6 bg-gray-200 rounded-lg">
+                    <h3 class="text-4xl sm:text-5xl text-gray-900 font-black tracking-tight">
+                        Solution
+                    </h3>
+                    <p class="text-normal text-justify text-lg font-medium text-gray-600 mt-2">
+                        Every step is described in the .js file of the project, as comments
+                    </p>
+                </div>
+
+                <div class="p-6 bg-gray-200 rounded-lg">
+                    <h3 class="text-4xl sm:text-5xl text-gray-900 font-black tracking-tight">
+                        Input
+                    </h3>
+                    <p class="text-normal text-justify text-lg font-medium text-gray-600 mt-2">
+                        Enter the random sequence, Separate by <strong>Space</strong>,
+                        Do Not Type So Fast, Wait For The ',' To Be Appended After Every Value
+                    </p>
+                    <form id="form">
+                        <input type="text" autocomplete="off" id="input" placeholder="Enter Cards Data" class="mt-2 py-3 px-3 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold focus:border-gray-500 focus:outline-none">
+                        <button type="submit" class="hidden"></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="mt-4 md:mt-0 md:ml-4 bg-gray-200 flex-grow p-5 flex flex-row flex-wrap relative rounded-lg" id="playingArea"></div>
+        </div>
+    </div>
+
+    <footer class="w-full mt-auto text-center p-4 bg-black">
+        <p class="text-white">
+            Hamadan University Of Technology, Jan 2021 | algo_991_p2_9708253
+        </p>
+    </footer>
+
+    <script src="./index.js"></script>
+
+    <!-- 
+        <div class="card bg-black shadow rounded-xl is-flipped m-2"><div class="card__face card__face--front rounded-xl flex flex-col justify-center"><h2 class="text-8xl font-black text-gray-300">${text}</h2></div><div class="card__face card__face--back rounded-xl"></div></div><div class="card flipped bg-black shadow rounded-xl is-flipped m-2"><div class="card__face card__face--front rounded-xl flex flex-col justify-center dark:bg-gray-300"><h2 class="text-8xl font-black text-gray-300 dark:text-black">${text}</h2><span class="text-black dark:text-gray-300 text-xl font-semibold bg-gray-300 dark:bg-black p-1 mx-6 rounded-lg mt-4">${name}</span></div><div class="card__face card__face--back rounded-xl"></div></div>
+        <div class="bg-red-200 p-8 rounded-lg flex w-full h-32 items-center text-5xl font-black uppercase text-red-700 ml-5 animate-pulse"></div>
+     -->
+</body>
+</html>
